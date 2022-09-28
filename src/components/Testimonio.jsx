@@ -6,7 +6,7 @@ const Testimonio = (props) => {
         <img
         className='imagen-testimonio'
         src={props.imagen}
-        alt='Foto de Emma'
+        alt={props.alt}
         />
         <div className='contenedor-texto'>
             <p className='nombre'>
